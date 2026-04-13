@@ -33,9 +33,12 @@ jobs:
 
       - name: Create DMG
         run: |
+          mkdir -p build/dmg-staging
+          cp -R build/TodoBoard.app build/dmg-staging/
+          ln -s /Applications build/dmg-staging/Applications
           hdiutil create \
             -volname "TodoBoard" \
-            -srcfolder "build/TodoBoard.app" \
+            -srcfolder "build/dmg-staging" \
             -ov \
             -format UDZO \
             "build/TodoBoard-${{ steps.version.outputs.VERSION }}.dmg"
