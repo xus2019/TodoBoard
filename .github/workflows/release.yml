@@ -9,6 +9,8 @@ jobs:
   build-and-release:
     name: Build DMG & Publish Release
     runs-on: macos-14
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
