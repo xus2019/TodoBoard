@@ -1,0 +1,389 @@
+{
+  "": {
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/master.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Ambience/AmbienceScene.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceScene.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceScene.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceScene~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceScene.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Ambience/FireflyEffect.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FireflyEffect.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FireflyEffect.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FireflyEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FireflyEffect.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Ambience/RainEffect.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/RainEffect.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/RainEffect.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/RainEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/RainEffect.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Ambience/SakuraEffect.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SakuraEffect.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SakuraEffect.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SakuraEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SakuraEffect.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Ambience/SnowEffect.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SnowEffect.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SnowEffect.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SnowEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SnowEffect.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Ambience/StardustEffect.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StardustEffect.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StardustEffect.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StardustEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StardustEffect.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/App/AppDelegate.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppDelegate.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppDelegate.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/DragDrop/TodoCrossColumnDropDelegate.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCrossColumnDropDelegate.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCrossColumnDropDelegate.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCrossColumnDropDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCrossColumnDropDelegate.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/DragDrop/TodoDragData.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDragData.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDragData.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDragData~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDragData.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/DragDrop/TodoReorderDropDelegate.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoReorderDropDelegate.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoReorderDropDelegate.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoReorderDropDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoReorderDropDelegate.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/AmbienceEffect.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceEffect.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceEffect.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceEffect.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/AppConfig.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppConfig.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppConfig.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppConfig.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/Appearance.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Appearance.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Appearance.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Appearance~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Appearance.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/ArchiveGroup.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroup.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroup.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroup~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroup.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/ArchiveGroupBy.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroupBy.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroupBy.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroupBy~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ArchiveGroupBy.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/CardStyle.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/CardStyle.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/CardStyle.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/CardStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/CardStyle.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/Project.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Project.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Project.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Project~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Project.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/TagDefinition.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagDefinition.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagDefinition.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagDefinition~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagDefinition.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Models/TodoItem.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoItem.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoItem.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoItem.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/FileWatcher.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileWatcher.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileWatcher.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileWatcher.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/FrontMatterParser.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FrontMatterParser.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FrontMatterParser.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FrontMatterParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FrontMatterParser.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/MarkdownProjectParser.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectParser.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectParser.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectParser.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/MarkdownProjectSerializer.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectSerializer.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectSerializer.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownProjectSerializer.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/MetaParser.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MetaParser.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MetaParser.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MetaParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MetaParser.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/StorageError.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StorageError.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StorageError.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StorageError~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StorageError.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Storage/WorkspaceStorage.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceStorage.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceStorage.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceStorage.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/AppTheme.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppTheme.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AppTheme.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/ThemeEnvironmentKey.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeEnvironmentKey.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeEnvironmentKey.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeEnvironmentKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeEnvironmentKey.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/ThemeManager.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeManager.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeManager.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ThemeManager.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/Themes/DaylightTheme.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DaylightTheme.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DaylightTheme.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DaylightTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DaylightTheme.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/Themes/MinimalTheme.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MinimalTheme.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MinimalTheme.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MinimalTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MinimalTheme.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/Themes/MoonlightTheme.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MoonlightTheme.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MoonlightTheme.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MoonlightTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MoonlightTheme.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Theme/Themes/SolarizedTheme.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SolarizedTheme.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SolarizedTheme.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SolarizedTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SolarizedTheme.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/TodoBoardApp.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoBoardApp.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoBoardApp.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoBoardApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoBoardApp.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Utilities/Color+Hex.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Color+Hex.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Color+Hex.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Color+Hex~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/Color+Hex.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Utilities/DateFormatters.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DateFormatters.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DateFormatters.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DateFormatters~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DateFormatters.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Utilities/FileNameSanitizer.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileNameSanitizer.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileNameSanitizer.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileNameSanitizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/FileNameSanitizer.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Utilities/KeyboardShortcuts.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/KeyboardShortcuts.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/KeyboardShortcuts.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/KeyboardShortcuts~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/KeyboardShortcuts.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Utilities/MarkdownRenderer.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownRenderer.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownRenderer.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownRenderer.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Utilities/StringExtensions.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StringExtensions.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StringExtensions.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StringExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StringExtensions.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/ViewModels/ProjectColumnViewModel.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnViewModel.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnViewModel.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnViewModel.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/ViewModels/TodoDetailViewModel.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDetailViewModel.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDetailViewModel.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDetailViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoDetailViewModel.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/ViewModels/WorkspaceViewModel.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceViewModel.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceViewModel.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WorkspaceViewModel.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/AmbienceBackgroundView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceBackgroundView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceBackgroundView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceBackgroundView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/AmbienceBackgroundView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/DoneArchiveSection.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneArchiveSection.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneArchiveSection.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneArchiveSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneArchiveSection.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/DoneTodoCardView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneTodoCardView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneTodoCardView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneTodoCardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DoneTodoCardView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/MainBoardView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MainBoardView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MainBoardView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MainBoardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MainBoardView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/MarkdownPreviewView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownPreviewView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownPreviewView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownPreviewView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownPreviewView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/MarkdownTextEditor.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownTextEditor.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownTextEditor.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownTextEditor~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/MarkdownTextEditor.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/NativeTextField.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NativeTextField.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NativeTextField.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NativeTextField~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NativeTextField.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/NewProjectSheet.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewProjectSheet.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewProjectSheet.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewProjectSheet~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewProjectSheet.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/NewTodoField.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewTodoField.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewTodoField.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewTodoField~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/NewTodoField.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/ProjectColumnView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/ProjectColumnView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/QuickInputWindow.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/QuickInputWindow.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/QuickInputWindow.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/QuickInputWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/QuickInputWindow.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/SearchOverlayView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SearchOverlayView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SearchOverlayView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SearchOverlayView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SearchOverlayView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/SettingsView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SettingsView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/SettingsView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/StatusBarView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StatusBarView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StatusBarView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StatusBarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/StatusBarView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/TagBadgeView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagBadgeView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagBadgeView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagBadgeView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagBadgeView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/TagPickerView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagPickerView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagPickerView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagPickerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TagPickerView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/TodoCardView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCardView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCardView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoCardView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/TodoEditorView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoEditorView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoEditorView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/TodoEditorView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/VisualEffectBackgroundView.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/VisualEffectBackgroundView.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/VisualEffectBackgroundView.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/VisualEffectBackgroundView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/VisualEffectBackgroundView.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Sources/TodoBoard/Views/WindowAccessor.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WindowAccessor.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WindowAccessor.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WindowAccessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/WindowAccessor.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/resource_bundle_accessor.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoard.build/resource_bundle_accessor.swiftdeps"
+  }
+}

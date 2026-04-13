@@ -1,0 +1,4 @@
+module TodoBoardPackageTests {
+    header "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardPackageTests.build/TodoBoardPackageTests-Swift.h"
+    requires objc
+}

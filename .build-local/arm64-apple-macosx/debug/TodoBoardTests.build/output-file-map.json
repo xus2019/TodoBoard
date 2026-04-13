@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/master.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Storage/FileWatcherTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileWatcherTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileWatcherTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileWatcherTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileWatcherTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Storage/FrontMatterParserTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FrontMatterParserTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FrontMatterParserTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FrontMatterParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FrontMatterParserTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Storage/MarkdownProjectParserTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectParserTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectParserTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectParserTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Storage/MarkdownProjectSerializerTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectSerializerTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectSerializerTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectSerializerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MarkdownProjectSerializerTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Storage/MetaParserTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MetaParserTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MetaParserTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MetaParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/MetaParserTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/TestSupport/SampleMarkdown.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/SampleMarkdown.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/SampleMarkdown.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/SampleMarkdown~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/SampleMarkdown.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/TestSupport/TestDirectories.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TestDirectories.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TestDirectories.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TestDirectories~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TestDirectories.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Theme/ThemeManagerTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ThemeManagerTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ThemeManagerTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ThemeManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ThemeManagerTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Utilities/DateFormattersTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/DateFormattersTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/DateFormattersTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/DateFormattersTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/DateFormattersTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/Utilities/FileNameSanitizerTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileNameSanitizerTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileNameSanitizerTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileNameSanitizerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/FileNameSanitizerTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/ViewModels/ProjectColumnViewModelTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ProjectColumnViewModelTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ProjectColumnViewModelTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ProjectColumnViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/ProjectColumnViewModelTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/ViewModels/TodoDetailViewModelTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TodoDetailViewModelTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TodoDetailViewModelTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TodoDetailViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/TodoDetailViewModelTests.swiftdeps"
+  },
+  "/Users/xushuai1/personal/TodoBoard/Tests/TodoBoardTests/ViewModels/WorkspaceViewModelTests.swift": {
+    "dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/WorkspaceViewModelTests.d",
+    "object": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/WorkspaceViewModelTests.swift.o",
+    "swiftmodule": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/WorkspaceViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/xushuai1/personal/TodoBoard/.build-local/arm64-apple-macosx/debug/TodoBoardTests.build/WorkspaceViewModelTests.swiftdeps"
+  }
+}
