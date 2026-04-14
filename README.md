@@ -44,13 +44,9 @@ A native macOS kanban board app built with SwiftUI. Uses plain Markdown files as
 1. Go to [Releases](https://github.com/xus2019/TodoBoard/releases/latest)
 2. Download `TodoBoard.dmg`
 3. Open the DMG, drag **TodoBoard.app** to your Applications folder
-4. Open Terminal and run:
-   ```bash
-   xattr -cr /Applications/TodoBoard.app
-   ```
-5. Double-click to launch
+4. First launch: right-click → **Open** → click **Open** in the dialog
 
-> **为什么需要这一步？** TodoBoard 尚未经过 Apple 公证，macOS 会阻止直接打开。执行上面的命令可去除隔离标记，只需操作一次。
+> **为什么需要右键打开？** TodoBoard 尚未经过 Apple 公证，首次启动时 macOS 会提示"来自不受信任的开发者"，右键选择打开即可绕过，后续正常双击启动。
 
 ### Build from Source / 从源码构建
 

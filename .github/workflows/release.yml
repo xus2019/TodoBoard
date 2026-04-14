@@ -31,6 +31,9 @@ jobs:
           chmod +x scripts/build-app.sh
           scripts/build-app.sh "${{ steps.version.outputs.VERSION }}"
 
+      - name: Ad-hoc sign app
+        run: codesign --force --deep --sign - build/TodoBoard.app
+
       - name: Create DMG
         run: |
           mkdir -p build/dmg-staging
