@@ -174,7 +174,9 @@ struct ProjectColumnView: View {
     }
 
     private var header: some View {
-        HStack(spacing: 8) {
+        HStack(spacing: 6) {
+            dragHandle
+
             // Project icon: colored circle with SF Symbol
             Button {
                 showIconPicker = true
@@ -231,19 +233,35 @@ struct ProjectColumnView: View {
         }
         .contentShape(Rectangle())
         .onHover { isHeaderHovered = $0 }
-        .draggable(ProjectDragData(projectId: viewModel.project.id.uuidString.lowercased())) {
-            HStack(spacing: 6) {
-                projectIcon
-                Text(viewModel.project.name)
-                    .font(themeManager.font(size: themeManager.fontSize, weight: .semibold))
+    }
+
+    private var dragHandle: some View {
+        Image(systemName: "line.3.horizontal")
+            .font(.system(size: 11, weight: .semibold))
+            .foregroundStyle(themeManager.textSecondary.opacity(isHeaderHovered ? 0.7 : 0.25))
+            .frame(width: 16, height: 20)
+            .contentShape(Rectangle())
+            .help("拖动以重新排序列")
+            .onHover { hovering in
+                if hovering {
+                    NSCursor.openHand.push()
+                } else {
+                    NSCursor.pop()
+                }
             }
-            .padding(.horizontal, 10)
-            .padding(.vertical, 6)
-            .background(
-                RoundedRectangle(cornerRadius: 8)
-                    .fill(.ultraThinMaterial)
-            )
-        }
+            .draggable(ProjectDragData(projectId: viewModel.project.id.uuidString.lowercased())) {
+                HStack(spacing: 6) {
+                    projectIcon
+                    Text(viewModel.project.name)
+                        .font(themeManager.font(size: themeManager.fontSize, weight: .semibold))
+                }
+                .padding(.horizontal, 10)
+                .padding(.vertical, 6)
+                .background(
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(.ultraThinMaterial)
+                )
+            }
     }
 
     private var projectIcon: some View {

@@ -41,18 +41,29 @@ struct WrappingTitleField: NSViewRepresentable {
     func updateNSView(_ nsView: NSTextField, context: Context) {
         if nsView.stringValue != text {
             nsView.stringValue = text
+            nsView.invalidateIntrinsicContentSize()
         }
         if nsView.placeholderString != placeholder {
             nsView.placeholderString = placeholder
         }
         if nsView.font != font {
             nsView.font = font
+            nsView.invalidateIntrinsicContentSize()
         }
         if nsView.textColor != textColor {
             nsView.textColor = textColor
         }
         context.coordinator.allowsNewlines = allowsNewlines
         context.coordinator.onSubmit = onSubmit
+    }
+
+    func sizeThatFits(_ proposal: ProposedViewSize, nsView: NSTextField, context: Context) -> CGSize? {
+        guard let cell = nsView.cell, let width = proposal.width, width.isFinite, width > 0 else {
+            return nil
+        }
+        let bounds = NSRect(x: 0, y: 0, width: width, height: .greatestFiniteMagnitude)
+        let size = cell.cellSize(forBounds: bounds)
+        return CGSize(width: width, height: ceil(size.height))
     }
 
     final class Coordinator: NSObject, NSTextFieldDelegate {
@@ -76,6 +87,7 @@ struct WrappingTitleField: NSViewRepresentable {
             } else {
                 text = raw
             }
+            field.invalidateIntrinsicContentSize()
         }
 
         func control(_ control: NSControl, textView: NSTextView, doCommandBy commandSelector: Selector) -> Bool {

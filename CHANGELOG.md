@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-04-25
+
+### Fixed
+- Todo card now grows in height to fit wrapped multi-line titles (`NSViewRepresentable.sizeThatFits` reports cell-wrapped height)
+- Window size is preserved across `Cmd+W` close → reopen: minSize moved from SwiftUI `.frame` to `NSWindow.minSize`; explicit `setFrameUsingName` / `saveFrame(usingName:)` on key/close
+- App now opens at 1200×800 by default on first launch
+
+### Added
+- Visible drag handle (`line.3.horizontal`) on each project column header; cursor switches to open-hand on hover so column reordering is discoverable
+
 ## [1.0.1] - 2026-04-25
 
 ### Fixed
@@ -36,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Light / Dark / System appearance support
 - In-app update checker
 
-[Unreleased]: https://github.com/xus2019/TodoBoard/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/xus2019/TodoBoard/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/xus2019/TodoBoard/releases/tag/v1.0.2
 [1.0.1]: https://github.com/xus2019/TodoBoard/releases/tag/v1.0.1
 [1.0.0]: https://github.com/xus2019/TodoBoard/releases/tag/v1.0.0

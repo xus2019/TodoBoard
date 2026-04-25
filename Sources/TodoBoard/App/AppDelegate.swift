@@ -2,6 +2,8 @@ import AppKit
 
 @MainActor
 final class AppDelegate: NSObject, NSApplicationDelegate {
+    static let mainWindowFrameName: NSWindow.FrameAutosaveName = "TodoBoardMainWindow"
+
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.regular)
         NSApp.activate(ignoringOtherApps: true)
@@ -16,6 +18,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             name: NSWindow.didBecomeKeyNotification,
             object: nil
         )
+
+        // Persist main window frame on close so Cmd+W → reopen retains size.
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(windowWillClose(_:)),
+            name: NSWindow.willCloseNotification,
+            object: nil
+        )
     }
 
     @objc nonisolated private func windowDidBecomeKey(_ notification: Notification) {
@@ -26,8 +36,27 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             let title = window.title
             if id.contains("settings") || title.contains("设置") || title == "Settings" {
                 window.center()
+            } else if Self.isMainWindow(window) {
+                _ = window.setFrameUsingName(Self.mainWindowFrameName)
             }
         }
+    }
+
+    @objc nonisolated private func windowWillClose(_ notification: Notification) {
+        let window = notification.object as? NSWindow
+        DispatchQueue.main.async {
+            guard let window, Self.isMainWindow(window) else { return }
+            window.saveFrame(usingName: Self.mainWindowFrameName)
+        }
+    }
+
+    private static func isMainWindow(_ window: NSWindow) -> Bool {
+        let id = window.identifier?.rawValue ?? ""
+        let title = window.title
+        if id.contains("settings") || title.contains("设置") || title == "Settings" {
+            return false
+        }
+        return true
     }
 
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
