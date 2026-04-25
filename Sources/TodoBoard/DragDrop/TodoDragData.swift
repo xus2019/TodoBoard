@@ -6,6 +6,10 @@ struct TodoDragData: Codable, Transferable {
     let sourceProjectId: String
 
     static var transferRepresentation: some TransferRepresentation {
-        CodableRepresentation(contentType: .json)
+        CodableRepresentation(contentType: .todoBoardTodoDrag)
     }
+}
+
+extension UTType {
+    static let todoBoardTodoDrag = UTType(exportedAs: "com.todoboard.todo-drag", conformingTo: .json)
 }

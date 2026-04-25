@@ -5,6 +5,7 @@ struct DoneArchiveSection: View {
     let themeManager: ThemeManager
     let onToggleDone: (TodoItem) -> Void
     let onOpenEditor: (TodoItem) -> Void
+    let onSave: (TodoItem) -> Void
     var highlightedTodoId: String?
     @State private var expandedGroupIDs: Set<String> = []
 
@@ -22,6 +23,7 @@ struct DoneArchiveSection: View {
                                 themeManager: themeManager,
                                 onToggleDone: { onToggleDone(todo) },
                                 onOpenEditor: { onOpenEditor(todo) },
+                                onSave: { onSave(todo) },
                                 isHighlighted: highlightedTodoId == todo.id
                             )
                             .id(todo.id)

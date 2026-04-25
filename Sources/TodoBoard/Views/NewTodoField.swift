@@ -1,3 +1,4 @@
+import AppKit
 import SwiftUI
 
 struct NewTodoField: View {
@@ -5,14 +6,18 @@ struct NewTodoField: View {
     let onSubmit: () -> Void
 
     var body: some View {
-        HStack(spacing: 8) {
+        HStack(alignment: .top, spacing: 8) {
             Image(systemName: "plus")
                 .font(.system(size: 12, weight: .medium))
                 .foregroundStyle(.secondary.opacity(0.5))
-            TextField("添加新任务...", text: $title)
-                .textFieldStyle(.plain)
-                .font(.system(size: 13))
-                .onSubmit(onSubmit)
+                .padding(.top, 2)
+            WrappingTitleField(
+                placeholder: "添加新任务...",
+                text: $title,
+                font: .systemFont(ofSize: 13),
+                textColor: .labelColor,
+                onSubmit: onSubmit
+            )
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 8)

@@ -9,6 +9,7 @@ struct MainBoardView: View {
     @State private var showQuickInput = false
     @State private var window: NSWindow?
     @State private var errorMessage: String?
+    @State private var newProjectDropTargeted = false
 
     var body: some View {
         ZStack {
@@ -292,10 +293,29 @@ struct MainBoardView: View {
                     .strokeBorder(
                         style: StrokeStyle(lineWidth: 1.5, dash: [8, 6])
                     )
-                    .foregroundStyle(themeManager.textSecondary.opacity(0.15))
+                    .foregroundStyle(
+                        newProjectDropTargeted
+                            ? themeManager.accentColor
+                            : themeManager.textSecondary.opacity(0.15)
+                    )
             )
         }
         .buttonStyle(.plain)
+        .dropDestination(
+            for: ProjectDragData.self,
+            action: { items, _ in
+                guard let data = items.first,
+                      let sourceIdx = viewModel.projects.firstIndex(where: {
+                          $0.id.uuidString.lowercased() == data.projectId
+                      }),
+                      sourceIdx < viewModel.projects.count - 1 else {
+                    return false
+                }
+                viewModel.reorderProjects(from: IndexSet(integer: sourceIdx), to: viewModel.projects.count)
+                return true
+            },
+            isTargeted: { newProjectDropTargeted = $0 }
+        )
     }
 
     private func exportProjects() {
@@ -361,6 +381,7 @@ struct MainBoardView: View {
         window.backgroundColor = .clear
         window.titlebarSeparatorStyle = .none
         window.styleMask.insert(.fullSizeContentView)
+        window.setFrameAutosaveName("TodoBoardMainWindow")
 
         // Move traffic light buttons down to vertically align with toolbar
         if let closeButton = window.standardWindowButton(.closeButton),
@@ -379,13 +400,12 @@ private struct WindowDragArea: NSViewRepresentable {
 }
 
 private class WindowDragNSView: NSView {
-    override var mouseDownCanMoveWindow: Bool { true }
-
-    override func mouseUp(with event: NSEvent) {
+    override func mouseDown(with event: NSEvent) {
         if event.clickCount == 2 {
             window?.zoom(nil)
+        } else {
+            window?.performDrag(with: event)
         }
-        super.mouseUp(with: event)
     }
 }
 

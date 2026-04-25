@@ -5,6 +5,7 @@ struct DoneTodoCardView: View {
     let themeManager: ThemeManager
     let onToggleDone: () -> Void
     let onOpenEditor: () -> Void
+    let onSave: () -> Void
     var isHighlighted: Bool = false
 
     @State private var isExpanded = false
@@ -28,36 +29,38 @@ struct DoneTodoCardView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            HStack {
+            HStack(alignment: .top, spacing: 8) {
                 Button(action: onToggleDone) {
                     Image(systemName: "checkmark.circle.fill")
                         .foregroundStyle(Color.green.opacity(0.7))
                 }
                 .buttonStyle(.plain)
+                .padding(.top, 2)
 
                 Text(todo.title)
                     .strikethrough()
                     .foregroundStyle(themeManager.textDone)
-
-                Spacer()
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
 
                 if todo.hasContent {
                     Image(systemName: "note.text")
                         .font(.system(size: 10))
                         .foregroundStyle(themeManager.textSecondary.opacity(0.5))
+                        .padding(.top, 4)
                 }
 
                 if let doneAt = todo.doneAt {
                     Text(DateFormatters.relativeDone(for: doneAt))
                         .font(.caption)
                         .foregroundStyle(themeManager.textSecondary.opacity(0.6))
+                        .padding(.top, 2)
                 }
             }
 
-            if isExpanded, todo.hasContent {
-                Text(MarkdownRenderer.render(todo.content))
-                    .foregroundStyle(themeManager.textDone)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+            if isExpanded {
+                doneContentEditor
+                    .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
         .padding(12)
@@ -92,10 +95,38 @@ struct DoneTodoCardView: View {
         }
         .onTapGesture {
             withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                let willCollapse = isExpanded
                 isExpanded.toggle()
+                if willCollapse {
+                    onSave()
+                }
             }
         }
         .onHover { isHovered = $0 }
+        .onDisappear {
+            if isExpanded {
+                onSave()
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var doneContentEditor: some View {
+        TextEditor(text: $todo.content)
+            .font(.system(size: themeManager.fontSize - 1))
+            .foregroundStyle(themeManager.textDone)
+            .scrollContentBackground(.hidden)
+            .padding(8)
+            .background(
+                RoundedRectangle(cornerRadius: 6)
+                    .fill(themeManager.isDark ? Color.white.opacity(0.03) : Color.black.opacity(0.02))
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 6)
+                    .strokeBorder(themeManager.isDark ? Color.white.opacity(0.06) : Color.black.opacity(0.04), lineWidth: 0.5)
+            )
+            .frame(minHeight: 96)
+            .clipShape(RoundedRectangle(cornerRadius: 6))
     }
 
     private func triggerFlash() {

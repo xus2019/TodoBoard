@@ -10,6 +10,7 @@ struct ProjectColumnView: View {
     @State private var isRenaming = false
     @State private var draftName = ""
     @State private var dropTargeted = false
+    @State private var projectDropTargeted = false
     @State private var isHeaderHovered = false
     @State private var showDeleteConfirmation = false
     @State private var showIconPicker = false
@@ -63,6 +64,7 @@ struct ProjectColumnView: View {
                                 workspaceViewModel.selectedTodoForEditor = todo
                                 workspaceViewModel.isEditorVisible = true
                             },
+                            onSave: { todo in viewModel.saveTodo(todo) },
                             highlightedTodoId: workspaceViewModel.highlightedTodoId
                         )
                     }
@@ -83,10 +85,10 @@ struct ProjectColumnView: View {
         .overlay(
             RoundedRectangle(cornerRadius: 12)
                 .strokeBorder(
-                    dropTargeted
+                    (dropTargeted || projectDropTargeted)
                         ? Color.accentColor
                         : (themeManager.isDark ? Color.white.opacity(0.04) : Color.black.opacity(0.04)),
-                    lineWidth: dropTargeted ? 2 : 0.5
+                    lineWidth: (dropTargeted || projectDropTargeted) ? 2 : 0.5
                 )
         )
         .shadow(
@@ -111,6 +113,16 @@ struct ProjectColumnView: View {
             },
             isTargeted: { isTargeted in
                 dropTargeted = isTargeted
+            }
+        )
+        .dropDestination(
+            for: ProjectDragData.self,
+            action: { items, _ in
+                guard let data = items.first else { return false }
+                return handleProjectDrop(data)
+            },
+            isTargeted: { isTargeted in
+                projectDropTargeted = isTargeted
             }
         )
     }
@@ -217,7 +229,21 @@ struct ProjectColumnView: View {
             .frame(width: 20)
             .opacity(isHeaderHovered ? 1 : 0.3)
         }
+        .contentShape(Rectangle())
         .onHover { isHeaderHovered = $0 }
+        .draggable(ProjectDragData(projectId: viewModel.project.id.uuidString.lowercased())) {
+            HStack(spacing: 6) {
+                projectIcon
+                Text(viewModel.project.name)
+                    .font(themeManager.font(size: themeManager.fontSize, weight: .semibold))
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 6)
+            .background(
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(.ultraThinMaterial)
+            )
+        }
     }
 
     private var projectIcon: some View {
@@ -266,6 +292,21 @@ struct ProjectColumnView: View {
             return false
         }
         workspaceViewModel.moveTodo(todo, to: viewModel.project, at: 0)
+        return true
+    }
+
+    private func handleProjectDrop(_ data: ProjectDragData) -> Bool {
+        guard let sourceIdx = workspaceViewModel.projects.firstIndex(where: {
+            $0.id.uuidString.lowercased() == data.projectId
+        }),
+        let targetIdx = workspaceViewModel.projects.firstIndex(where: {
+            $0.id == viewModel.project.id
+        }),
+        sourceIdx != targetIdx else {
+            return false
+        }
+        let destination = sourceIdx < targetIdx ? targetIdx + 1 : targetIdx
+        workspaceViewModel.reorderProjects(from: IndexSet(integer: sourceIdx), to: destination)
         return true
     }
 

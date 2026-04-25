@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-04-25
+
+### Fixed
+- Window: double-clicking the toolbar zooms the window again
+- Window: size and position now persist across launches via `setFrameAutosaveName`
+- Done todos: thoughts/notes are editable inline; persists on collapse and on view disappear
+- Todo title input wraps long text instead of truncating; pasted multiline is normalized to single-line so Markdown serialization stays intact
+- Project columns can be reordered by dragging the column header (calls existing `reorderProjects`)
+
+### Changed
+- Drag-drop payloads use distinct exported UTTypes (`com.todoboard.todo-drag`, `com.todoboard.project-drag`) so todo and project drops no longer share `public.json`
+
 ## [1.0.0] - 2025-01-01
 
 ### Added
@@ -24,5 +36,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Light / Dark / System appearance support
 - In-app update checker
 
-[Unreleased]: https://github.com/xus2019/TodoBoard/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/xus2019/TodoBoard/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/xus2019/TodoBoard/releases/tag/v1.0.1
 [1.0.0]: https://github.com/xus2019/TodoBoard/releases/tag/v1.0.0

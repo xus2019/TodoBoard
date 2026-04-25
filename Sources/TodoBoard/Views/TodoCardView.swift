@@ -124,6 +124,11 @@ struct TodoCardView: View {
             }
         }
         .onHover { isHovered = $0 }
+        .onDisappear {
+            if isExpanded {
+                onSave()
+            }
+        }
         .sheet(isPresented: $showTagPicker) {
             TagPickerView(
                 availableTags: availableTags,
@@ -136,12 +141,14 @@ struct TodoCardView: View {
     // MARK: - Title Row
 
     private var titleRow: some View {
-        HStack(spacing: 8) {
-            TextField("", text: $todo.title)
-                .textFieldStyle(.plain)
-                .font(themeManager.font(size: themeManager.fontSize, weight: .medium))
-                .foregroundStyle(themeManager.textPrimary)
-                .onSubmit { onSave() }
+        HStack(alignment: .top, spacing: 8) {
+            WrappingTitleField(
+                placeholder: "",
+                text: $todo.title,
+                font: themeManager.nsFont(size: themeManager.fontSize, weight: .medium),
+                textColor: NSColor(themeManager.textPrimary),
+                onSubmit: onSave
+            )
 
             Spacer()
 

@@ -92,6 +92,17 @@ final class ThemeManager: ObservableObject {
         }
     }
 
+    func nsFont(size: CGFloat, weight: NSFont.Weight = .regular) -> NSFont {
+        switch fontFamily {
+        case "SF Mono":
+            return .monospacedSystemFont(ofSize: size, weight: weight)
+        case "Menlo":
+            return NSFont(name: "Menlo", size: size) ?? .systemFont(ofSize: size, weight: weight)
+        default:
+            return .systemFont(ofSize: size, weight: weight)
+        }
+    }
+
     var useGlassMaterial: Bool {
         currentTheme.useMaterial && cardStyle == .glass
     }
