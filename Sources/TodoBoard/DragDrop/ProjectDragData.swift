@@ -10,5 +10,7 @@ struct ProjectDragData: Codable, Transferable {
 }
 
 extension UTType {
-    static let todoBoardProjectDrag = UTType(exportedAs: "com.todoboard.project-drag", conformingTo: .json)
+    // Conform only to .data (not .json) so a dropDestination(for: TodoDragData.self)
+    // sitting on the same view cannot consider this payload compatible.
+    static let todoBoardProjectDrag = UTType(exportedAs: "com.todoboard.project-drag", conformingTo: .data)
 }

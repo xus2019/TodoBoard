@@ -382,11 +382,10 @@ struct MainBoardView: View {
         window.titlebarSeparatorStyle = .none
         window.styleMask.insert(.fullSizeContentView)
         window.minSize = NSSize(width: 900, height: 600)
+        // Tracks user-driven resize/move into the autosave defaults.
+        // AppDelegate is responsible for the explicit restore (so it can also
+        // hide-then-fade the window across the SwiftUI first-frame gap).
         window.setFrameAutosaveName("TodoBoardMainWindow")
-        // Explicit restore: SwiftUI may set a default frame after autosave runs.
-        if !window.setFrameUsingName("TodoBoardMainWindow") {
-            // No saved frame yet — keep SwiftUI default.
-        }
 
         // Move traffic light buttons down to vertically align with toolbar
         if let closeButton = window.standardWindowButton(.closeButton),

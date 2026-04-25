@@ -11,5 +11,5 @@ struct TodoDragData: Codable, Transferable {
 }
 
 extension UTType {
-    static let todoBoardTodoDrag = UTType(exportedAs: "com.todoboard.todo-drag", conformingTo: .json)
+    static let todoBoardTodoDrag = UTType(exportedAs: "com.todoboard.todo-drag", conformingTo: .data)
 }

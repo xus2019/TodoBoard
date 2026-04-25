@@ -85,10 +85,10 @@ struct ProjectColumnView: View {
         .overlay(
             RoundedRectangle(cornerRadius: 12)
                 .strokeBorder(
-                    (dropTargeted || projectDropTargeted)
+                    dropTargeted
                         ? Color.accentColor
                         : (themeManager.isDark ? Color.white.opacity(0.04) : Color.black.opacity(0.04)),
-                    lineWidth: (dropTargeted || projectDropTargeted) ? 2 : 0.5
+                    lineWidth: dropTargeted ? 2 : 0.5
                 )
         )
         .shadow(
@@ -113,16 +113,6 @@ struct ProjectColumnView: View {
             },
             isTargeted: { isTargeted in
                 dropTargeted = isTargeted
-            }
-        )
-        .dropDestination(
-            for: ProjectDragData.self,
-            action: { items, _ in
-                guard let data = items.first else { return false }
-                return handleProjectDrop(data)
-            },
-            isTargeted: { isTargeted in
-                projectDropTargeted = isTargeted
             }
         )
     }
@@ -183,6 +173,7 @@ struct ProjectColumnView: View {
             } label: {
                 projectIcon
             }
+            .allowsHitTesting(true)
             .buttonStyle(.plain)
             .popover(isPresented: $showIconPicker) {
                 IconPickerView(currentIcon: viewModel.project.icon) { newIcon in
@@ -231,36 +222,50 @@ struct ProjectColumnView: View {
             .frame(width: 20)
             .opacity(isHeaderHovered ? 1 : 0.3)
         }
+        .padding(.vertical, 4)
+        .padding(.horizontal, -4)
         .contentShape(Rectangle())
         .onHover { isHeaderHovered = $0 }
+        .draggable(ProjectDragData(projectId: viewModel.project.id.uuidString.lowercased())) {
+            HStack(spacing: 6) {
+                projectIcon
+                Text(viewModel.project.name)
+                    .font(themeManager.font(size: themeManager.fontSize, weight: .semibold))
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 6)
+            .background(
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(.ultraThinMaterial)
+            )
+        }
+        .dropDestination(
+            for: ProjectDragData.self,
+            action: { items, _ in
+                guard let data = items.first else { return false }
+                return handleProjectDrop(data)
+            },
+            isTargeted: { projectDropTargeted = $0 }
+        )
+        .background(
+            RoundedRectangle(cornerRadius: 6)
+                .fill(themeManager.accentColor.opacity(projectDropTargeted ? 0.18 : 0))
+        )
     }
 
     private var dragHandle: some View {
         Image(systemName: "line.3.horizontal")
-            .font(.system(size: 11, weight: .semibold))
-            .foregroundStyle(themeManager.textSecondary.opacity(isHeaderHovered ? 0.7 : 0.25))
-            .frame(width: 16, height: 20)
+            .font(.system(size: 12, weight: .semibold))
+            .foregroundStyle(themeManager.textSecondary.opacity(isHeaderHovered ? 0.75 : 0.3))
+            .frame(width: 18, height: 22)
             .contentShape(Rectangle())
-            .help("拖动以重新排序列")
+            .help("按住列头任意位置拖动，可调整列顺序")
             .onHover { hovering in
                 if hovering {
-                    NSCursor.openHand.push()
+                    NSCursor.openHand.set()
                 } else {
-                    NSCursor.pop()
+                    NSCursor.arrow.set()
                 }
-            }
-            .draggable(ProjectDragData(projectId: viewModel.project.id.uuidString.lowercased())) {
-                HStack(spacing: 6) {
-                    projectIcon
-                    Text(viewModel.project.name)
-                        .font(themeManager.font(size: themeManager.fontSize, weight: .semibold))
-                }
-                .padding(.horizontal, 10)
-                .padding(.vertical, 6)
-                .background(
-                    RoundedRectangle(cornerRadius: 8)
-                        .fill(.ultraThinMaterial)
-                )
             }
     }
 
